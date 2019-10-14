@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Problem4Sol2
+public class PartyProblem
 {
 	Node[] nodes;
 	PriorityQueue<Party> q = new PriorityQueue<Party>();
@@ -114,7 +114,7 @@ public class Problem4Sol2
 
 	public static void main(String[] args)
 	{
-		Problem4Sol2 p = new Problem4Sol2();
+		PartyProblem p = new PartyProblem();
 		String fileLocation = System.getProperty("user.dir");
 		fileLocation += "/" + "input2" + ".txt";
 		
